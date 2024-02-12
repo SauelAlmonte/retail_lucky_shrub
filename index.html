@@ -19,8 +19,12 @@
 
 		<!-- Metadata for character set, language, description, subject, copyright, date, keywords, and viewport -->
 		<meta charset="UTF-8" />
-		<meta name="language" content="ES" />
-		<meta name="description" content="Description of App" />
+		<meta name="language" content="EN" />
+		<!-- Use "EN" for English language -->
+		<meta
+			name="description"
+			content="Specializes in garden design and creation, maintenance and landscaping"
+		/>
 		<meta
 			name="subject"
 			content="Specializes in garden design and creation, maintenance and landscaping"
@@ -45,54 +49,133 @@
 	</head>
 
 	<body>
+		<!-- Container Start -->
 		<div class="container">
+			<!-- Header Start -->
 			<header class="header_container">
+				<!-- Header Wrapper: Contains logo, company name, and navigation -->
 				<div class="header_wrapper">
+					<!-- Logo and Company Name Container -->
 					<div>
-						<img src="/img/asset_1-3_x.png" alt="Company Logo" srcset="" />
+						<!-- Company Logo -->
+						<img src="/img/asset_1-3_x.png" alt="Company Logo" />
+
+						<!-- Company Name -->
 						<h1>Lucky Shrub</h1>
 					</div>
+					<!-- End Logo and Company Name Container -->
 
+					<!-- Navigation Menu -->
 					<nav>
+						<!-- Unordered List for Navigation Links -->
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="menu.html">Menu</a></li>
-							<li><a href="book.html">Book</a></li>
-							<li><a href="about.html">About Us</a></li>
+							<!-- List Item for Home Link -->
+							<li><a href="index.html" aria-label="Home">Home</a></li>
+
+							<!-- List Item for Book Link -->
+							<li><a href="book.html" aria-label="Book">Book</a></li>
+
+							<!-- List Item for About Us Link -->
+							<li><a href="about.html" aria-label="About Us">About Us</a></li>
+
+							<!-- List Item for Contact Us Link -->
+							<li><a href="contact.html" aria-label="Contact Us">Contact Us</a></li>
 						</ul>
+						<!-- End Unordered List for Navigation Links -->
 					</nav>
+					<!-- End Navigation Menu -->
 				</div>
+				<!-- End Header Wrapper -->
 			</header>
+			<!-- Header End -->
+
+			<!-- Main Container Start -->
 			<main class="main_container">
+				<!-- Banner Section Start -->
 				<section class="main_section_wrapper">
+					<!-- Main Banner Container -->
 					<div class="main_section_banner">
+						<!-- Image Container for Nature Banner -->
 						<div class="main_section_image_container">
+							<!-- Nature Banner Image -->
 							<img
 								src="/img/tree-care-shrub-care.png"
-								alt=""
+								alt="Nature Banner"
 								width="1000"
 								height="450"
-								srcset=""
 							/>
 						</div>
+						<!-- End Image Container for Nature Banner -->
+
+						<!-- Banner Promotion Content Container -->
 						<div class="main_section_banner_promotion">
+							<!-- Promotion Title -->
 							<h2>
 								Book a <strong>Free</strong> <br /><span>Consultation Today!</span>
 							</h2>
+
+							<!-- Promotion Description -->
 							<p>
 								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
 								accusantium nihil harum recusandae iusto rem non est voluptatum illum
 								aliquam quos, dolorum debitis expedita nulla explicabo ipsam quibusdam a
 								in.
 							</p>
-							<button>Book Now</button>
+
+							<!-- Call-to-Action Button -->
+							<button aria-label="Book Now">Book Now</button>
 						</div>
+						<!-- End Banner Promotion Content Container -->
 					</div>
+					<!-- End Main Banner Container -->
 				</section>
+				<!-- Banner Section End -->
+
+				<!-- About Section Start -->
+				<section class="about_container">
+					<!-- Container for About Section Content -->
+					<div class="about_wrapper">
+						<!-- Article Container for About Us Information -->
+						<article>
+							<!-- Section Heading: About Us -->
+							<h3>About Us</h3>
+
+							<!-- Paragraph: Company Overview -->
+							<p>
+								Based in Tucson, Arizona, Lucky Shrub is a medium-sized garden design
+								firm that specializes in garden design and creation, maintenance and
+								landscaping. The company also runs a small plant nursery that sells
+								indoor and outdoor plants, making them a one-stop shop for clients to
+								"transform any space into an oasis you can be proud of".
+							</p>
+
+							<!-- Line Breaks for Readability -->
+							<br />
+							<!-- Paragraph: Founding Story -->
+							<p>
+								Lucky Shrub was started by a husband and wife team, Jason and Maria, who
+								share a long-time love for plants. Jason is the garden architect. He
+								creates and oversees all designs while managing his team of landscapers.
+								Maria manages all the marketing for the company and oversees the
+								nursery.
+							</p>
+						</article>
+						<!-- End Article Container for About Us Information -->
+					</div>
+					<!-- End Container for About Section Content -->
+				</section>
+				<!-- About Section End -->
+
+				<!-- Article Section Start -->
 				<section class="main_section_article_container">
+					<!-- Wrapper for Article Content -->
 					<div class="main_section_article_wrapper">
+						<!-- Individual Article 1 -->
 						<article>
+							<!-- Article Heading: Heading 2 -->
 							<h3>Heading 2</h3>
+
+							<!-- Article Content: Lorem Ipsum Text -->
 							<p>
 								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
 								accusantium nihil harum recusandae iusto rem non est voluptatum illum
@@ -100,8 +183,14 @@
 								in.
 							</p>
 						</article>
+						<!-- End Individual Article 1 -->
+
+						<!-- Individual Article 2 -->
 						<article>
+							<!-- Article Heading: Heading 3 -->
 							<h3>Heading 3</h3>
+
+							<!-- Article Content: Lorem Ipsum Text -->
 							<p>
 								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
 								accusantium nihil harum recusandae iusto rem non est voluptatum illum
@@ -109,8 +198,14 @@
 								in.
 							</p>
 						</article>
+						<!-- End Individual Article 2 -->
+
+						<!-- Individual Article 3 -->
 						<article>
+							<!-- Article Heading: Heading 4 -->
 							<h3>Heading 4</h3>
+
+							<!-- Article Content: Lorem Ipsum Text -->
 							<p>
 								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
 								accusantium nihil harum recusandae iusto rem non est voluptatum illum
@@ -118,20 +213,33 @@
 								in.
 							</p>
 						</article>
+						<!-- End Individual Article 3 -->
 					</div>
+					<!-- End Wrapper for Article Content -->
 				</section>
+				<!-- Article Section End -->
 			</main>
+			<!-- Main Container End -->
+
+			<!-- Footer Section Start -->
 			<footer>
 				<div class="footer_container">
+					<!-- Footer Logo and Text Start -->
 					<div>
-						<img src="/img/asset_1-3_x.png" alt="Company Logo" srcset="" />
+						<img src="/img/asset_1-3_x.png" alt="Company Logo" />
 						<p>Lucky Shrub</p>
 					</div>
+					<!-- Footer Logo and Text End -->
+
+					<!-- Copyright Text Start -->
 					<div class="copyright">
 						<p>Copyright Lucky Shrub <span>&copy;</span></p>
 					</div>
+					<!-- Copyright Text End -->
 				</div>
 			</footer>
+			<!-- Footer Section End -->
 		</div>
+		<!-- Container End -->
 	</body>
 </html>
