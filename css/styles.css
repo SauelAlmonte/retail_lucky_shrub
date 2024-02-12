@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@100;200;300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: "Kalnia", serif;
+	font-family: "Oswald", sans-serif;
+}
+
+body {
+	font-size: 62.5%;
+	background-color: #edefee;
+	height: 100vh;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0 3rem;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #edefee;
+	color: #333;
+	padding: 1rem 0;
+	width: 100%;
+}
+
+header > img {
+	display: block;
+	margin: 1rem 1.5rem;
+	width: 5rem;
+}
+
+header h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3.5rem;
+	font-weight: 600;
+	letter-spacing: 0.6rem;
+	text-transform: uppercase;
+	color: #26877f;
+	line-height: 1.1;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin: auto 1rem;
+	font-size: 1.1rem;
+	border-bottom: 1px solid #333;
+}
+
+nav li a {
+	color: #333;
+}
+
+nav li a:hover {
+	cursor: pointer;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 500;
+	margin: 1rem 0;
+	color: #333;
+}
+
+h3 {
+	text-align: center;
+	font-size: 1.3rem;
+	color: #333;
+	font-weight: 500;
+	margin: 1rem 0;
+}
+
+main {
+	width: 100%;
+	height: auto;
+	margin-top: 2rem;
+}
+
+section {
+	display: flex;
+	margin: 2rem 0;
+}
+
+article > p {
+	font-size: 1.1rem;
+	font-weight: 300;
+}
+
+article {
+	flex: 1;
+}
+
+footer {
+	flex-shrink: 0;
+	color: #fff;
+	padding: 0.5rem 0;
+	margin-top: auto;
+	display: flex;
+	align-items: center;
+	background-color: #edefee;
+}
+
+footer div {
+	flex: 1;
+}
+
+footer div > img {
+	width: 2rem;
+}
+
+footer .copyright {
+	display: flex;
+	justify-content: end;
+	align-items: left;
+}
+
+footer div > p {
+	font-size: 1rem;
+	font-weight: 300;
+	font-style: italic;
+	color: #333;
+}
