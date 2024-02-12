@@ -1,4 +1,6 @@
-# Front-End Developer Dynamic Skills Test V2, Coalition Technologies
+# Coursera Project
+
+## Retail: Lucky Shrub
 
 ## Webpage Overview
 
